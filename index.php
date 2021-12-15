@@ -1,9 +1,17 @@
 <!DOCTYPE html>
+<p> Дата и время:
+<p> 
+<?php
+ $d=date("d.m.Y H:i");
+ echo($d);
+ echo(', выполнила Латыпова Эльза');
+?>
+<ul>
+<h2>Лабораторная работа №3:</h2>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Латыпова Эльза ПИ-323</title>
 </head>
 <body>
 	<a href="f1.html">Упражнение № 3-1 </a> <br>
