@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Латыпова Эльза</title>
+</head>
+<body>
+	<a href="index.php">Главная</a>
+		<FORM method="get" action="s3-6.php">
+			<h2>Подсчет количества символа</h2>
+			Введите ваше предложение 
+			<input type="text" name="prhase" id="">
+			<br>
+			Введите подсчитываемый символ
+			<input type="text" name="symbol">
+		<P> <INPUT type="submit" name="obr" value="Проверить">
+	</FORM>
+	<div class="second">
+		<form action="s3-6.php" method="post">
+			<h2>Замена 1 буквы на 2</h2>
+			<p>Введите текст <input type="text" name="prhase2"></p>
+			<p>Введите букву замены <input type="text" name="firstSymbol"> и букву на которую поменяется <input type="text" name="secondSymbol"></p>
+			<input type="submit" name="secondButton" value="Проверить">
+		</form>
+	</div>
+	<div class="third">
+		<form action="s3-6.php" method="post">
+			<h2>Подсчет предложений</h2>
+			<h3>Предложения обязательно должны заканчиваться на ".", "!", "?", "..."</h3>
+			<p>Введите текст <input type="text" name="prhase3"></p>
+			<input type="submit" name="thirdButton" value="Проверить">
+		</form>
+	</div>
+</body>
+</html>
